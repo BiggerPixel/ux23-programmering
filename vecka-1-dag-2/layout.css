@@ -1,0 +1,17 @@
+html {
+    background-color: cornflowerblue;
+}
+
+div.box {
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+}
+
+#frame {
+    display: flex;
+    /* gap: 32px; */
+    justify-content: space-between;
+    align-items: end;
+    background-color: red;
+}
