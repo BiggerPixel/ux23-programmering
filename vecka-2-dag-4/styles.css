@@ -1,0 +1,36 @@
+:root {
+  --brand: #caa3ee;
+  --text: #34085d;
+  --text-secondary: #8a2be2;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --brand: #8a2be2;
+    --text: #ffffff;
+    --text-secondary: #caa3ee;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--brand);
+  color: var(--text);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.box {
+  background-color: red;
+  height: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+  .box {
+    background-color: green;
+    height: 200px;
+  }
+}
