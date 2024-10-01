@@ -1,0 +1,29 @@
+:root {
+  --brand: #caa3ee;
+}
+
+@keyframes background-fade {
+  0% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: var(--brand);
+  }
+}
+
+.my-first-animation {
+  padding: 48px;
+  background-color: var(--brand);
+  animation: background-fade 3s infinite alternate;
+}
+
+h1 {
+  color: blue;
+  transition: color 0.3s;
+}
+
+h1:hover {
+  color: black;
+  text-decoration: underline;
+}
